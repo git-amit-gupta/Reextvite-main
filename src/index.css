@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+#root {
+  background-image: linear-gradient(180deg, #dfedf0, #e6dada);
+  font-family: "Inter", sans-serif;
+}
+
+.rootContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: auto;
+  align-items: center;
+  height: calc(100vh - 140px);
+}
+
+.reextChart .x-panel-body-default {
+  border: none;
+}
+
+.mainOtherContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.reextForm {
+  background: #fefcfb;
+}
+
+.reextChart .x-panel-header {
+  display: none;
+}
+
+.normalContainer {
+  border-radius: 8px;
+  padding-bottom: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background: white;
+  max-width: 750px;
+}
+
+.reextTable .x-panel-header {
+  background-image: linear-gradient(270deg, #08d88d, #0eb5a3);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.reextTable .x-title {
+  background-image: none;
+  color: white;
+}
+.reextTable .x-panel-body {
+  height: 100%;
+  border: transparent;
+  background: #fefcfb;
+  background-image: none;
+  padding: 0px !important;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.reextForm {
+  border-radius: 8px;
+}
+
+.allInventoryContainerss {
+  width: 60%;
+  flex-grow: 1;
+}
+
+.reextForm .x-panel-header {
+  background-image: linear-gradient(270deg, #08d88d, #0eb5a3);
+  height: 300px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.reextForm .x-panel-body {
+  border: none;
+  background: white;
+  background-image: none;
+  padding-top: 13px !important;
+}
+
+.reextForm .x-panel-header {
+  height: 50px;
+}
+
+.reextForm .x-panel-header-default-top {
+  box-shadow: none;
+}
+
+.reextForm .x-panel-header-title-default {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 24px;
+  padding-top: 8px;
+}
+
+.reextFilter .x-panel-header-title-default {
+  text-align: left !important;
+}
+
+.reextForm a {
+  width: 97%;
+  left: 0 !important;
+  background-image: linear-gradient(270deg, #08d88d, #0eb5a3);
+  min-height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 2px !important;
+}
+
+.reextForm a span {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.reextForm .x-autocontainer-innerCt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reextForm label {
+  color: #00ce9f;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.reextForm .x-form-text-wrap-default,
+.reextForm .input {
+  border: 1px solid #d2c7cb;
+  border-radius: 5px;
+  height: 25px;
+}
+
+.loginContainer,
+.signupContainer,
+.itemContainer {
+  border-radius: 8px;
+  padding-bottom: 10px;
+  width: 40%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background: white;
+}
+
+.allInventoryContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.filterContainer {
+  border-radius: 8px;
+  width: 20%;
+  height: 200px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 800;
+  background: white;
+  min-width: 200px;
+}
+
+.cardTitle .x-form-display-field-default {
+  font-size: 16px;
+  font-weight: 800;
+}
+.cardTitle > div:nth-of-type(2) {
+  display: none !important;
+}
+
+.cardPrice .x-form-display-field-default {
+  font-size: 19px;
+  font-weight: 800;
+}
+.cardPrice > div:nth-of-type(2) {
+  display: none !important;
+}
+
+.cardCategory .x-form-display-field-default {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.cardCategory > div:nth-of-type(2) {
+  display: none !important;
+}
+
+.cardDescription .x-form-display-field-default {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.cardSubCategory > div:nth-of-type(2) {
+  display: none !important;
+}
+
+.cardDescription > div:nth-of-type(2) {
+  display: none !important;
+}
+
+.reextForm > div:nth-of-type(2) {
+  display: none !important;
+}
+
+.reextTable > div:nth-of-type(2),
+.reextChart > div:nth-of-type(2),
+.reextCombo > div:nth-of-type(2) {
+  display: none !important;
+}
+
+.userContainer {
+  display: flex;
+  gap: 10px;
+  flex-direction: row-reverse;
+  padding: 10px 10px 120px 10px;
+}
+.chartContainer {
+  width: 300;
+  height: 400;
+}
+
+.signout-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.signout-btn:hover {
+  text-decoration: underline;
+}
+
+.navBarWrapper {
+  padding: 20px;
+}
+
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.renderTotal {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.renderTotalItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #00ce9f;
+  min-width: 150px;
+  height: 100px;
+  border-radius: 8px;
+  gap: 16px;
+}
+
+.x-panel-header-title-default > .x-title-text-default:after {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .loginContainer,
+  .signupContainer,
+  .itemContainer {
+    width: 80%;
+  }
+  .allInventoryContainerss {
+    width: 100%;
+  }
+  .allInventoryContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .filterContainer {
+    width: 90%;
+  }
+  .userContainer {
+    flex-direction: column;
+    padding: 10px 10px 100px 10px;
+  }
+}
