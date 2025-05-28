@@ -280,6 +280,10 @@
   display: none;
 }
 
+#root>div:not(.rootContainer) {
+  display: none !important;
+}
+
 @media (max-width: 768px) {
   .loginContainer,
   .signupContainer,
